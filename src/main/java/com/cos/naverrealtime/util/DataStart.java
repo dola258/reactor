@@ -1,13 +1,12 @@
 package com.cos.naverrealtime.util;
 
-import java.time.LocalDateTime;
+import java.time.LocalDateTime;	
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class DataStart {
 
 	
-	public static int urlStart = 277950;
+	public static int urlStart = 277300;
 	
 	public static String standardDay() {
 		LocalDateTime t = LocalDateTime.now().minusDays(1).plusHours(9);

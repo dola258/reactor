@@ -1,11 +1,11 @@
 package com.cos.naverrealtime.domain;
 
-import java.sql.Timestamp;	
+
+
+import java.util.Date;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import com.cos.naverrealtime.domain.News;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,5 +21,6 @@ public class News {
 	
 	private String title;
 	private String company;
-	private Timestamp createAt; //날짜타입으로 몽고DB save()하면 무조건 미국 시간(+9)으로 들어감!!
-}                            // String은 그대로 들어감
+//	private Timestamp createAt; 
+	private Date createAt;
+}   
