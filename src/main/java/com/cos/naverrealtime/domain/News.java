@@ -14,7 +14,7 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 @Data
-@Document(collection = "news_naver")
+@Document(collection = "naver_realtime")
 public class News {
 	@Id
 	private String _id;

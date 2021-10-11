@@ -20,7 +20,7 @@ public class NewsBatch {
 
 	// 초, 분, 시, 일, 월, 주
 //	@Scheduled(cron = "0 0 1 * * *", zone = "Asia/Seoul")
-	@Scheduled(cron = "0 44 0 * * *", zone = "Asia/Seoul")
+	@Scheduled(cron = "0 27 8 * * *", zone = "Asia/Seoul")
 //	@Scheduled(fixedDelay = 1000)
 	public void newsCrawAndSave() throws Exception {
 	

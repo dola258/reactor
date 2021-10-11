@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class DataStart {
 
 	
-	public static int urlStart = 277300;
+	public static int urlStart = 277493;
 	
 	public static String standardDay() {
 		LocalDateTime t = LocalDateTime.now().minusDays(1).plusHours(9);
